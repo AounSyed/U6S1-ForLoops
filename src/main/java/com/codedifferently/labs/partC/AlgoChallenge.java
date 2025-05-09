@@ -14,8 +14,12 @@ public class AlgoChallenge {
      */
 
     public static Boolean avengersAssemble(boolean dcHero, boolean avengerHero) {
-
-        return null;
+        boolean response = false;
+        if (avengerHero == true)
+            response = true;
+        else if (avengerHero == false && dcHero == false)
+            response = true;
+        return response;
 
     }
 
@@ -31,8 +35,12 @@ public class AlgoChallenge {
      */
 
     public static Boolean nearValue(int n) {
-
-        return null;
+        boolean response = false;
+        int closeToHundred = Math.abs(100 - n);
+        int closeToTwoHundred = Math.abs(200 - n);
+        if (closeToHundred <= 10|| closeToTwoHundred <= 10)
+            response = true;
+        return response;
     }
 
 }

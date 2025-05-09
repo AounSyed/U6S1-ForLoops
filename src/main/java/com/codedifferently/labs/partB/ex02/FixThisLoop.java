@@ -4,10 +4,12 @@ public class FixThisLoop {
 
     public static String hello(){
         String response = "";
-        /**
-         * Your code goes here
-         */
-
+        int i = 0;
+        while (i < 5)
+        {
+            System.out.println("Hello");
+            i++;
+        }
         return response;
 
     }

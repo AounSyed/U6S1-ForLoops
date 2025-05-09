@@ -3,9 +3,10 @@ package com.codedifferently.labs.partB.ex03;
 public class Challenge {
     public static String challenge(){
         String response = "";
-        /**
-         * Your code goes here
-         */
+        String[] array = {"Kaleb", "Tariq", "Gio", "Sam", "Steph", "Michael"};
+        for(int i = 0; i < array.length; i++){
+            System.out.println(array[i]);
+        }
         return response;
     }
 
